@@ -73,7 +73,7 @@ export default async function Home() {
         <h2 className={"text-3xl font-bold mb-8 uppercase border-b-4 border-black pb-2"}>Обо мне</h2>
         <div className={"bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] p-6"}>
           <p className={"text-lg mb-4"}>
-            Я - программист со стажем 4 года (если учитывать учебный...). Специализируюсь на ASP.Net, C# в Backend части
+            Я - программист со стажем 4 месяца. Специализируюсь на ASP.Net, C# в Backend части
             и React, TypeScript во Frontend.
           </p>
           <p className={"text-lg"}>
@@ -106,7 +106,7 @@ export default async function Home() {
             </ul>
           </div>
           <div className={"bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] p-6"}>
-            <h3 className={"text-xl font-bold mb-4 uppercase text-center"}>Остальные</h3>
+            <h3 className={"text-xl font-bold mb-4 uppercase text-center"}>Прочие</h3>
             <ul className={"space-y-2"}>
               <li className={"border-b-2 border-dotted border-gray-300 pb-2"}>Git / GitHub</li>
               <li className={"border-b-2 border-dotted border-gray-300 pb-2"}>DevOps (Docker, CI/CD, Ansible)</li>
@@ -129,7 +129,7 @@ export default async function Home() {
 
       <footer className={"bg-black text-white p-6 mt-12"}>
         <div className={"container mx-auto text-center"}>
-          <p>© {new Date().getFullYear()} Егор Кокорин. Все права защищены.</p>
+          <p>&copy; {new Date().getFullYear()} Егор Кокорин. Все права защищены.</p>
         </div>
       </footer>
     </>
